@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Share+Tech&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <!-- animate style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="container">
+        <!-- header -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="./images/logo.webp" alt="logo">
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a href="#home" class="links">HOME</a></li>
+                <li class="list-items"><a href="#about" class="links">About</a></li>
+                <li class="list-items"><a href="#skills" class="links">Skills</a></li>
+                <li class="list-items"><a href="#contacts" class="links">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <div class="home-content">
+                <h1 class="animate__animated animate__pulse" id="username"> Iam Angel <span id="lname">Maria
+                    </span></h1>
+                <p id="user-details">This is my official portfolio website to describe all <br> details and work
+                    experiance in Web Development</p>
+                <a href="./images/fadil_resume.pdf" id="download" download>Download CV</a>
+
+
+            </div>
+            <div class="home-img">
+                <!-- shape -->
+                <img id="shape" src="./images/shape-removebg-preview.png" alt="shape" class="group1">
+                <!-- girl -->
+                <img src="./images/image_of_girl-removebg-preview.png" alt="girl" id="girl" class="group1">
+
+            </div>
+
+        </section>
+        <!-- about -->
+        <section id="about">
+            <div class="sectionhead">
+                <h2 class="mainhead">About Me</h2>
+                <span class="subhead">Introduction</span>
+            </div>
+            <div class="aboutbody">
+                <div data-aos="fade-right" class="aboutimage">
+                    <img class="img1" src="./images/about_me-removebg-preview.png" alt="aboutimage">
+                </div>
+                <div class="aboutcontent">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil perspiciatis laudantium nemo,
+                        amet itaque ipsa porro aliquam magnam! Ab nobis saepe praesentium tempore vitae placeat maxime
+                        minima cupiditate neque ipsum.
+                        Commodi tempore nesciunt eius ipsa sunt deserunt magni nam dolore dignissimos saepe ab, mollitia
+                        error, quo enim deleniti temporibus. Quos, </p>
+
+                    <div class="information">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Angel Maria</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+91786354753</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>Angel@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- skills -->
+        <section id="skills">
+            <div class="sectionhead">
+                <h2 class="mainhead">Skills</h2>
+                <span class="subhead">My Skills</span>
+            </div>
+            <div class="skillcontent">
+                <div class="progressbar">
+                    <!-- progress bar -->
+
+                    <div class="bars">
+                        <h3 class="barhead">HTML</h3>
+                        <span class="barpercentage">83%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                            class="basebar htmlbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">CSS</h3>
+                        <span class="barpercentage">80%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                            class="basebar cssbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">JavaScript</h3>
+                        <span class="barpercentage">78%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                            class="basebar jsbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">React</h3>
+                        <span class="barpercentage">90%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                            class="basebar reactbar"></div>
+
+                    </div>
+
+                </div>
+                <div data-aos="fade-left">
+                    <img class="skillimage" src="./images/skills.avif" alt="skills">
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section id="contacts">
+            <div class="sectionhead">
+                <h2 class="mainhead">Contacts</h2>
+                <span class="subhead">My Contacts</span>
+            </div>
+            <div class="iconcollection">
+                <!-- linked in -->
+                <div class="icon">
+                    <a href="www.linkedin.com/in/muhammed-fadil-mp-17b595160" target="_blank"><i
+                            class="fa-brands fa-linkedin-in brands"></i></a>
+                </div>
+                <!-- github -->
+                <div class="icon">
+                    <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+                </div>
+                <!-- twitter -->
+                <div class="icon">
+                    <a href="https://github.com/" target="_blank"><i class="fa-brands fa-x-twitter brands "></i></a>
+                </div>
+
+                <!-- instagram -->
+                <div class="icon">
+                    <a href="https://github.com/" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+                </div>
+
+
+                <!-- whatsapp -->
+                <div class="icon">
+                    <a href="https://github.com/" target="_blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p id="copyright"> &copy; My portfolio website -june 2024 , All Rights reserved to &reg; angel maria </p>
+            <div class="icon uparrow">
+                <a href="#container"><i class="fa-solid fa-arrow-up brands"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
